@@ -6,6 +6,7 @@ import Page1 from './Page1';
 import Page2 from './Page2';
 import Home from './Home';
 import PanelDemo from './PanelDemo';
+import Page4Bootstrap from './Page4Bootstrap';
 
 /* function App() {
   return (
@@ -33,9 +34,11 @@ function App() {
   return (
     <Router>
       <div>
-        <Link to="/">Main page</Link> | <Link to="/page1">Page 1</Link>|{" "}
+        <Link to="/">Main page</Link> |
+        <Link to="/page1">Page 1</Link> |
         <Link to="/page2">Page 2</Link> |
-        <Link to="/page3">Page 3 - Different Panel example </Link>
+        <Link to="/page3">Page 3 - Different Panel example </Link> |
+        <Link to="/page4">Page 4 -Bootstrap </Link> |
       </div>
 
       <Routes>
@@ -46,6 +49,8 @@ function App() {
         <Route path="/page1" element={<Page1/>}>
         </Route>
         <Route path="/page3" element={<PanelDemo/>}>
+        </Route>
+        <Route path="/page4" element={<Page4Bootstrap/>}>
         </Route>
 
       </Routes>
