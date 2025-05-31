@@ -7,6 +7,8 @@ import Page2 from './Page2';
 import Home from './Home';
 import PanelDemo from './PanelDemo';
 import Page4Bootstrap from './Page4Bootstrap';
+import Page5Bootstrap from './Page5Bootstrap';
+import PageNBootstrapEmpty from './PageNBootstrapEmpty';
 
 /* function App() {
   return (
@@ -39,6 +41,9 @@ function App() {
         <Link to="/page2">Page 2</Link> |
         <Link to="/page3">Page 3 - Different Panel example </Link> |
         <Link to="/page4">Page 4 -Bootstrap </Link> |
+        <Link to="/page5">Page 5 -Bootstrap </Link> |
+
+        <Link to="/pageN">Page N -Bootstrap Empty </Link> |
       </div>
 
       <Routes>
@@ -51,6 +56,11 @@ function App() {
         <Route path="/page3" element={<PanelDemo/>}>
         </Route>
         <Route path="/page4" element={<Page4Bootstrap/>}>
+        </Route>
+        <Route path="/page5" element={<Page5Bootstrap/>}>
+        </Route>
+
+        <Route path="/pageN" element={<PageNBootstrapEmpty/>}>
         </Route>
 
       </Routes>

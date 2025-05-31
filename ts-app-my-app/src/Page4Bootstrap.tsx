@@ -1,6 +1,6 @@
 function Page4Bootstrap(){
     return (
-      <div>
+      <div className="container-fluid pt-5 ">
    <div className="container-fluid p-5 bg-primary text-white text-center">
      <h1>My First Bootstrap Page</h1>
      <p>Resize this responsive page to see the effect!</p>
@@ -9,7 +9,7 @@ function Page4Bootstrap(){
      <div className="row">
        <div className="col-sm-4">
          <h3>Column 1</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit... writing more writing more </p>
          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
        </div>
        <div className="col-sm-4">
