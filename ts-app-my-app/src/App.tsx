@@ -9,6 +9,8 @@ import PanelDemo from './PanelDemo';
 import Page4Bootstrap from './Page4Bootstrap';
 import Page5Bootstrap from './Page5Bootstrap';
 import PageNBootstrapEmpty from './PageNBootstrapEmpty';
+import Page6BootstrapContainerResponsive from './Page6BootstrapContainerResponsive';
+import Page7BootstrapColumns from './Page7BootstrapColumns';
 
 /* function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
         <Link to="/page3">Page 3 - Different Panel example </Link> |
         <Link to="/page4">Page 4 -Bootstrap </Link> |
         <Link to="/page5">Page 5 -Bootstrap </Link> |
+        <Link to="/page6">Page 6 -Bootstrap Container responsive example </Link> |
+        <Link to="/page7">Page 7 -Bootstrap Columns example </Link> |
 
         <Link to="/pageN">Page N -Bootstrap Empty </Link> |
       </div>
@@ -58,6 +62,10 @@ function App() {
         <Route path="/page4" element={<Page4Bootstrap/>}>
         </Route>
         <Route path="/page5" element={<Page5Bootstrap/>}>
+        </Route>
+        <Route path="/page6" element={<Page6BootstrapContainerResponsive/>}>
+        </Route>
+        <Route path="/page7" element={<Page7BootstrapColumns/>}>
         </Route>
 
         <Route path="/pageN" element={<PageNBootstrapEmpty/>}>
