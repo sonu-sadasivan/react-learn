@@ -11,6 +11,7 @@ import Page5Bootstrap from './Page5Bootstrap';
 import PageNBootstrapEmpty from './PageNBootstrapEmpty';
 import Page6BootstrapContainerResponsive from './Page6BootstrapContainerResponsive';
 import Page7BootstrapColumns from './Page7BootstrapColumns';
+import Page8BootstrapTypographyHeadings from './Page8BootstrapTypographyHeadings';
 
 /* function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Link to="/page5">Page 5 -Bootstrap </Link> |
         <Link to="/page6">Page 6 -Bootstrap Container responsive example </Link> |
         <Link to="/page7">Page 7 -Bootstrap Columns example </Link> |
+        <Link to="/page8">Page 8 -Bootstrap Typography Headings example </Link> |
 
         <Link to="/pageN">Page N -Bootstrap Empty </Link> |
       </div>
@@ -66,6 +68,8 @@ function App() {
         <Route path="/page6" element={<Page6BootstrapContainerResponsive/>}>
         </Route>
         <Route path="/page7" element={<Page7BootstrapColumns/>}>
+        </Route>
+        <Route path="/page8" element={<Page8BootstrapTypographyHeadings/>}>
         </Route>
 
         <Route path="/pageN" element={<PageNBootstrapEmpty/>}>
